@@ -1,0 +1,30 @@
+# モデルファイル（サイズが大きいためGitHubにアップできない）
+*.ckpt
+*.pt
+*.pth
+
+# キャッシュやチェックポイント
+cache/
+checkpoints/
+__pycache__/
+*.log
+
+# Python環境ファイル
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+env/
+venv/
+.venv/
+
+# VSCodeなどのIDE設定ファイル
+.vscode/
+.idea/
+
+# OSによる不要ファイル
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebookのチェックポイント
+.ipynb_checkpoints/
