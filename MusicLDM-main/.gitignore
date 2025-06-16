@@ -33,5 +33,5 @@ Thumbs.db
 *.png
 **/*.md
 !/*.md
-.ini
-.txt
+*.ini
+*.txt
