@@ -8,6 +8,7 @@
 - **背景**: 一般的なText-to-Musicモデルでは、音楽は一度きりのランダム生成で、生成後の修正ができなかった。
 - **提案手法**: 音楽に再びノイズを加えてから新たなプロンプトを条件として与え、元音源の要素を残しつつも意図的な変化を加える仕組みを実現。
 
+
 ## 🔧 使用技術・モデル構成
 
 - **CLAP (Contrastive Language-Audio Pretraining)**  
@@ -22,6 +23,7 @@
 - **モデル構成図**
 <img width="444" alt="image" src="https://github.com/user-attachments/assets/df04f3f7-41be-4fdf-bb4d-51885181a629" />
 
+
 ## 🔁 音楽の再調整手法
 
 1. 生成済み音楽ファイルをモデルに再入力。
@@ -31,6 +33,7 @@
 
 ## 🎵 元音源と調整後音楽
 [元音源と調整後音楽の例](https://www.notion.so/hhhslab/6-1b5afc8cdfc380f58ae0dbe85d047a96?source=copy_link)
+
 
 ## 🧪 評価
 
