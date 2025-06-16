@@ -19,6 +19,9 @@
 - **MusicLDM**  
   CLAPとLDMを組み合わせた音楽生成モデル。プロンプトに応じた音楽を任意秒数で生成可能。
 
+- **モデル構成図**
+<img width="444" alt="image" src="https://github.com/user-attachments/assets/df04f3f7-41be-4fdf-bb4d-51885181a629" />
+
 ## 🔁 音楽の再調整手法
 
 1. 生成済み音楽ファイルをモデルに再入力。
